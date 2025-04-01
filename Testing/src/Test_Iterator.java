@@ -16,9 +16,10 @@ public class Test_Iterator {
 		{
 			System.out.print(litr.next());
 		}
+		System.out.println("");
 		while(litr.hasPrevious())
 			{
-				System.out.print(litr.next());
+				System.out.print(litr.previous());
 			}
 
 	}
